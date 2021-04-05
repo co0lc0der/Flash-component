@@ -12,8 +12,8 @@ Flash::setFlash('test5', 'danger', false);
 
 var_dump($_SESSION);
 
-Flash::getFlash('info');
-Flash::getFlash('danger');
-Flash::getFlash('success');
+echo Flash::getFlash('info');
+echo Flash::getFlash('danger');
+echo Flash::getFlash('success');
 
 var_dump($_SESSION);
