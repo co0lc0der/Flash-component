@@ -1,12 +1,12 @@
-# PHP component Flash
+# Flash messages php component
 
-It uses `$_SESSION` array to store messages. Because of it you have to use `session_start()` at the begining of your script. See `index.php` for example.
+This is an easy-to-use php component for working with flash messages in your project. It uses `$_SESSION` to store messages. Because of it you have to use `session_start()` at the begining of your script. See `index.php` for example.
 ### Public methods:
 - `exists()` - check existing a message by its type
 - `setFlash()` - set a flash message
 - `getFlash()` - return the added message
 ## How to use
-### 1.Include the Flash class.
+### 1. Include the Flash class.
 ```php
 include __DIR__ . '/Flash/Flash.php';
 ```
